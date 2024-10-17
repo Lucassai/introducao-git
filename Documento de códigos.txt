@@ -1,0 +1,6 @@
+git init							inicializa um repositório GIT local
+git add . ou git add nome_do_arquivo				adiciona as alterações ao índice
+git commit -m "Sua mensagem de commit"				cria um commit com uma mensagem descritiva
+git branch -M main						renomeia a branch principal (opcional)
+git remote add origin URL_DO_REPOSITORIO			adiciona o repositório remoto como origem
+git push -u origin main OU git push origin nome_da_sua_branch	envia o código para o GitHub
